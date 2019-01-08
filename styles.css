@@ -1,29 +1,30 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+/*------------------------NAVIGATIONS------------------------------*/
+
+nav img {
+
+    width: 70px;
+    height: 60px;
+    vertical-align: middle;
+    position: absolute;
+    left: 19.5px;
+    top: 19.5px;
 }
 
-
-
-
-
-
-.hide {
-
-    display: none;
-}
-
-/*navigation*/
-
-hr {
-
+a {
+    text-decoration: none;
     color: black;
-
-
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+#menu a {
 
+    color: white;
+    line-height: 30px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
 
 #links {
     position: absolute;
@@ -32,9 +33,6 @@ hr {
     left: -30px;
 
 }
-
-
-
 
 #nav_container {
 
@@ -48,61 +46,7 @@ hr {
 
 }
 
-
-
-video {
-    width: 100%;
-
-}
-
-#youtube_logo {
-
-    width: 50px;
-    height: 6.5px;
-}
-
-nav img {
-
-    width: 70px;
-    height: 60px;
-
-
-    vertical-align: middle;
-    position: absolute;
-    left: 19.5px;
-    top: 19.5px;
-
-}
-
-a {
-
-    text-decoration: none;
-
-
-    color: black;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-
-}
-
-
-
-
-#menu a {
-
-    color: white;
-    line-height: 30px;
-
-}
-
-a:hover {
-
-
-    opacity: 0.5;
-}
-
-
-
-/*--------------------NAVIGATIONS SLIT---------------------*/
+/*------------------------NAVIGATIONS SLIT------------------------*/
 
 /*--------------------FORSIDE----------------------------*/
 
@@ -124,7 +68,7 @@ section img {
 #sectionwrapper_header_portfolio {
 
     max-width: 750px;
-    margin: auto auto 50px auto;
+    margin: auto auto 30px auto;
 
 
 }
@@ -157,7 +101,7 @@ section img {
 
 #overskrift_portfolio_header {
 
-    margin: 50px 0px 10px 0;
+    margin: 40px 0px 10px 0px;
 
     font-size: 1.5em;
 
@@ -457,7 +401,14 @@ iframe {
 
 }
 
+#om_ux_native {
 
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 370px;
+}
 
 #om_ux {
 
@@ -530,40 +481,29 @@ iframe {
 }
 
 
+/*-----------------------------ALLE-SIDER-------------------------------------*/
 
-
-/*-----------------------------UX-------------------------------------------------*/
-/*-----------------------------ALLE-SIDER---------------------*/
-
-/*
-#tilbage {
-
-    position: absolute;
-    z-index: 99;
-    margin: 0px 0px 0px -6px;
-    text-align: center;
-    color: rgb(180, 180, 180);
-    font-size: 1em;
-    cursor: pointer;
-
-    width: 25px;
-    left: 29px;
-    top: 97px;
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-#tilbage:hover {
 
-    opacity: 0.5;
+video {
+    width: 100%;
 }
-*/
 
+.hide {
+    display: none;
+}
+
+hr {
+    color: black;
+}
 
 #top_side {
-
-
     padding: 0px 0px 0px 30px;
-
 }
 
 #bund_side {
@@ -575,112 +515,44 @@ iframe {
 
     background-color: rgb(35, 43, 46);
     position: relative;
-
     z-index: 99;
     width: 25px;
     left: 290px;
     top: 80px;
-
-
-
-
-    /*    margin: 0px 610px 0px 0px;*/
     padding: 0px 26.5px 3px 10px;
-
-    /*    padding: 0px 0px 2px 0px;*/
     margin: 0px 0px 0px 0px;
     text-align: center;
     color: rgb(255, 255, 255);
-
     font-size: 1em;
     cursor: pointer;
-
 }
-
 
 #op {
 
-
     background-color: rgb(35, 43, 46);
     position: relative;
-
     z-index: 99;
     width: 25px;
     left: 290px;
     top: 80px;
-
-
-
-
-    /*    margin: 0px 610px 0px 0px;*/
     padding: 0px 26.5px 3px 10px;
-
-    /*    padding: 0px 0px 2px 0px;*/
     margin: 0px 0px 0px 0px;
     text-align: center;
     color: rgb(255, 255, 255);
-
     font-size: 1em;
     cursor: pointer;
-
-
-
 }
-
-/*
-#social_media {
-
-    position: absolute;
-    width: 100%;
-
-
-}
-
-#youtube_logo {
-    position: relative;
-    width: 27px;
-    top: -60.5px;
-    left: 1790px;
-
-
-}
-
-
-
-#instagram_logo {
-    position: absolute;
-    width: 22px;
-    top: -60px;
-    left: 1750px;
-
-}
-
-
-#mail_logo {
-
-    position: absolute;
-    width: 22px;
-    top: -62.5px;
-    left: 1830px;
-
-}*/
-
 
 /*-----------------------------OM MIG---------------------------------------------*/
-
 
 #video {
 
     margin: 30px 0px 30px 0px;
 }
 
-
 #hent_cv {
     position: absolute;
     z-index: 99;
-
-
-    /*    margin: 0px 610px 0px 0px;*/
     padding: 5px 20px 5px 20px;
     text-align: center;
     color: white;
@@ -705,10 +577,11 @@ iframe {
 
 }
 
+#youtube_logo {
 
-
-
-/*-----------------------------OM MIG---------------------------------------------*/
+    width: 50px;
+    height: 11px;
+}
 
 /*-------------------------BURGER MENU--------------------------------------------*/
 
@@ -774,6 +647,17 @@ iframe {
 
         left: 309px;
     }
+}
+
+
+@media only screen and (max-width: 599px) {
+
+    #om_ux_native {
+
+
+        margin-bottom: 0px;
+    }
+
 }
 
 @media only screen and (max-width: 648px) {
@@ -905,7 +789,7 @@ iframe {
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 
     #menuknap {
         display: none;
