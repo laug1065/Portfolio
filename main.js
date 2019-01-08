@@ -20,12 +20,12 @@ function toggleMenu() {
     if (erSkjult == true) {
 
 
-        //menuen er nu skjult - ændr menuknap til lll
+
 
         document.querySelector("#menuknap").textContent = "☰"
 
     } else {
-        //menuen er nu vist - ændre menukanp til X
+
         document.querySelector("#menuknap").textContent = "☓";
     }
 }
