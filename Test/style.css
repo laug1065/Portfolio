@@ -1,0 +1,28 @@
+.hidden {
+
+    transform: translateY(-200%);
+}
+
+#menuknap {
+
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+
+}
+
+#menu {
+
+    list-style-type: none;
+    transition: transform 0.5s;
+    position: absolute;
+    left: 0px;
+
+}
+
+a {
+    text-decoration: none;
+
+
+}
