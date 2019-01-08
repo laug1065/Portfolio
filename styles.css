@@ -1,0 +1,1000 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.hide {
+
+    display: none;
+}
+
+/*navigation*/
+
+hr {
+
+    color: black;
+
+
+}
+
+
+
+#links {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    left: -30px;
+
+}
+
+
+
+
+#nav_container {
+
+
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 3em;
+    margin: 39px 0px 39px 0px;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+
+
+video {
+    width: 100%;
+
+}
+
+#youtube_logo {
+
+    width: 50px;
+    height: 6.5px;
+}
+
+nav img {
+
+    width: 70px;
+    height: 60px;
+
+
+    vertical-align: middle;
+    position: absolute;
+    left: 19.5px;
+    top: 19.5px;
+
+}
+
+a {
+
+    text-decoration: none;
+
+
+    color: black;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+
+
+#menu a {
+
+    color: white;
+    line-height: 30px;
+
+}
+
+a:hover {
+
+
+    opacity: 0.5;
+}
+
+
+
+/*--------------------NAVIGATIONS SLIT---------------------*/
+
+/*--------------------FORSIDE----------------------------*/
+
+
+
+section img {
+
+    width: 100%;
+    margin-bottom: 180px;
+}
+
+
+
+
+/*FORSIDE SLUT*/
+
+/*---------------------------PORTFOLIO-------------------------------------------*/
+
+#sectionwrapper_header_portfolio {
+
+    max-width: 750px;
+    margin: auto auto 50px auto;
+
+
+}
+
+#sectionwrapper_portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto auto 133px auto;
+
+}
+
+
+
+#section_column1 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#section_column2 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#overskrift_portfolio_header {
+
+    margin: 50px 0px 10px 0;
+
+    font-size: 1.5em;
+
+
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#om_portfolio_header {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+
+#overskrift_portfolio {
+
+    margin: 10px 0px 10px 0;
+
+    font-size: 1em;
+
+
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+
+#om_portfolio {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+}
+
+#portfolio_container {
+    position: relative;
+
+    margin: 10px 30px 10px 30px;
+
+    cursor: pointer;
+}
+
+#portfolio_container img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+
+    transition: .5s ease;
+
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst_boks {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#portfolio_container:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+
+#portfolio_container:hover #portfolio_tekst_boks {
+
+    opacity: 1;
+}
+
+#portfolio_tekst {
+
+    border: solid 1px black;
+
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+}
+
+/*---------------------------PORTFOLIO-------------------------------------------*/
+
+/*-------------------------STILARTSSITE-------------------------------------------*/
+
+#overskrift_stilartssite {
+
+    margin: 0 0 10px 0;
+
+    font-size: 1.5em;
+
+
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#om_stilartssite {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+
+#sectionwrapper {
+
+    max-width: 750px;
+    margin: auto auto 133px auto;
+
+
+}
+
+iframe {
+
+    width: 100%;
+    height: 200px;
+}
+
+#stilarts_container {
+    position: relative;
+
+    margin: 50px 30px 50px 30px;
+
+    cursor: pointer;
+
+
+}
+
+#stilarts_container img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+
+    transition: .5s ease;
+
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#tekst_boks {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+
+#stilarts_container:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+
+#stilarts_container:hover #tekst_boks {
+
+    opacity: 1;
+}
+
+
+.tekst {
+
+    border: solid 1px black;
+
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+}
+
+
+#column {
+
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+    margin: 0px 20px 0px 30px;
+}
+
+
+/*-------------------------STILARTSSITE-------------------------------------------*/
+
+/*-----------------------------------UX-------------------------------------------*/
+
+#sectionwrapper_header_ux {
+
+    max-width: 750px;
+    margin: auto auto 50px auto;
+
+
+}
+
+#sectionwrapper_ux {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: auto auto 133px auto;
+
+}
+
+
+
+#section_column1 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#section_column2 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+#overskrift_ux_header {
+
+    margin: 50px 0px 10px 0;
+
+    font-size: 1.5em;
+
+
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#om_ux_header {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 0px;
+}
+
+
+#overskrift_ux {
+
+    margin: 10px 0px 10px 0;
+
+    font-size: 1em;
+
+
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+
+#om_ux {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+}
+
+#ux_container {
+    position: relative;
+
+    margin: 50px 30px 10px 30px;
+
+    cursor: pointer;
+}
+
+#ux_container img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+
+
+    transition: .5s ease;
+
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#ux_tekst_boks {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#ux_container:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+
+#ux_container:hover #ux_tekst_boks {
+
+    opacity: 1;
+}
+
+.ux_tekst {
+
+    border: solid 1px black;
+
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+}
+
+
+
+
+/*-----------------------------UX-------------------------------------------------*/
+/*-----------------------------ALLE-SIDER---------------------*/
+
+#tilbage {
+
+    position: absolute;
+    z-index: 99;
+    margin: 0px 0px 0px -6px;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-size: 1em;
+    cursor: pointer;
+
+    width: 25px;
+    left: 29px;
+    top: 97px;
+
+}
+
+#tilbage:hover {
+
+    opacity: 0.5;
+}
+
+
+#top_side {
+
+
+    padding: 0px 0px 0px 30px;
+
+}
+
+#bund_side {
+
+    max-width: 750px;
+}
+
+#op_doublecolumn {
+
+    background-color: rgb(35, 43, 46);
+    position: relative;
+
+    z-index: 99;
+    width: 25px;
+    left: 290px;
+    top: 80px;
+
+
+
+
+    /*    margin: 0px 610px 0px 0px;*/
+    padding: 0px 26.5px 3px 10px;
+
+    /*    padding: 0px 0px 2px 0px;*/
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    font-size: 1em;
+    cursor: pointer;
+
+}
+
+
+#op {
+
+
+    background-color: rgb(35, 43, 46);
+    position: relative;
+
+    z-index: 99;
+    width: 25px;
+    left: 290px;
+    top: 80px;
+
+
+
+
+    /*    margin: 0px 610px 0px 0px;*/
+    padding: 0px 26.5px 3px 10px;
+
+    /*    padding: 0px 0px 2px 0px;*/
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    font-size: 1em;
+    cursor: pointer;
+
+
+
+}
+
+
+#social_media {
+
+    position: absolute;
+    width: 100%;
+
+
+}
+
+#youtube_logo {
+    position: relative;
+    width: 27px;
+    top: -60.5px;
+    left: 1790px;
+
+
+}
+
+
+
+#instagram_logo {
+    position: absolute;
+    width: 22px;
+    top: -60px;
+    left: 1750px;
+
+}
+
+
+#mail_logo {
+
+    position: absolute;
+    width: 22px;
+    top: -62.5px;
+    left: 1830px;
+
+}
+
+
+
+/*-----------------------------OM MIG---------------------------------------------*/
+
+
+#video {
+
+    margin: 30px 0px 30px 0px;
+}
+
+
+#hent_cv {
+    position: absolute;
+    z-index: 99;
+
+
+    /*    margin: 0px 610px 0px 0px;*/
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    color: white;
+    background-color: rgb(35, 43, 46);
+    font-size: 0.9em;
+    cursor: pointer;
+
+}
+
+#hent_cv:hover {
+
+    border: solid 1px rgb(35, 43, 46);
+
+
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+
+
+/*-----------------------------OM MIG---------------------------------------------*/
+
+/*-------------------------BURGER MENU--------------------------------------------*/
+
+.hidden {
+
+    transform: translateX(-150%);
+
+}
+
+
+
+#menuknap {
+
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 38px;
+
+}
+
+#menu {
+
+
+    z-index: 1000;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    list-style-type: none;
+    transition: transform 0.5s;
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    padding: 79px 100px 0px 30px;
+
+    height: 100%;
+    /*
+    margin-top: 0px;
+    margin-left: 0px;*/
+
+    /*    background-image: linear-gradient(to right, rgb(33, 33, 33), #4a4a4a);*/
+    background-color: rgb(35, 43, 46);
+
+
+
+}
+
+/*burger menu slut*/
+
+
+
+/*Mediaqueries */
+
+@media only screen and (min-width: 375px) {
+
+    #nav_container {
+
+
+        margin: 100px 500px 20px 0px;
+    }
+
+    #op_doublecolumn {
+
+        left: 309px;
+    }
+}
+
+@media only screen and (max-width: 648px) {
+
+    #nav_container {
+
+
+        margin: 83px 0px 20px 0px;
+    }
+
+    #menuknap {
+
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        right: 30px;
+        top: 28px;
+
+    }
+
+    nav img {
+
+        width: 70px;
+        height: 60px;
+
+
+        vertical-align: middle;
+        position: absolute;
+        left: 19.5px;
+        top: 11px;
+
+    }
+
+
+}
+
+
+
+@media only screen and (min-width: 648px) {
+
+    #tilbage {
+
+        margin: 19px 0px 20px -5px;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    #om_forside {
+        margin: 0px 170px;
+
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    #om_forside {
+        margin: 0px 130px;
+    }
+
+
+
+    #overskrift_forside {
+
+        margin: 50px 0px 20px 130px;
+    }
+
+    #tilbage {
+
+        margin: 19px 0px 20px 5px;
+
+    }
+
+
+    #op {
+        left: 645px;
+
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #om_forside {
+        margin: 0px 170px;
+    }
+
+
+    #overskrift_forside {
+
+        margin: 50px 0px 20px 170px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1905px) {
+    #om_forside {
+        margin: 0px 625px;
+        font-size: 1.5em;
+    }
+
+}
+
+#overskrift_forside {
+
+    margin: 100px 0 20px 620px;
+    font-size: 2em;
+}
+
+
+
+
+/*mediaqueries burgermenu*/
+
+
+@media only screen and (max-width: 768px) {
+
+    #links {
+        visibility: hidden;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu {
+
+        height: 100%;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+    #op {
+
+        left: 650px;
+    }
+
+    #tilbage {
+
+
+        left: 19px;
+
+    }
+}
+
+
+
+/*----------------------------FOOTER----------------------------------------------------------*/
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-top: auto;
+    background-color: #dbdbdb;
+    width: 100%;
+    background-color: rgb(35, 43, 46);
+    padding: 10px 0px 10px 0px;
+
+}
+
+.footer p {
+    margin: 0px 0 0 0px;
+
+    color: white;
+    font-family: 'Abel', sans-serif;
+    font-size: 0.73rem;
+    text-align: center;
+    vertical-align: bottom;
+    margin-bottom: auto;
+}
+
+
+@media only screen and (min-width: 375px) {
+
+    section img {
+
+        width: 100%;
+        margin-bottom: 13px
+    }
+
+
+
+
+}
+
+
+@media only screen and (min-width: 1920px) {
+
+    section img {
+
+        width: 100%;
+        margin-bottom: 33.7px
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1920px) {
+
+
+    #op {
+        left: 658px;
+
+    }
+
+
+}
