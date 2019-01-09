@@ -110,6 +110,67 @@ section img {
 
 }
 
+#overskrift_portfolio1 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_portfolio2 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_portfolio3 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_portfolio4 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_portfolio5 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_portfolio6 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
 #om_portfolio {
 
     font-size: 1em;
@@ -120,6 +181,68 @@ section img {
 
 }
 
+#om_portfolio1 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_portfolio2 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_portfolio3 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_portfolio4 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_portfolio5 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_portfolio6 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
+
 #portfolio_container {
 
     position: relative;
@@ -127,6 +250,47 @@ section img {
     cursor: pointer;
 
 }
+
+#portfolio_container1 {
+
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#portfolio_container2 {
+
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#portfolio_container3 {
+
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#portfolio_container4 {
+
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#portfolio_container5 {
+
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
 
 #portfolio_container img {
 
@@ -140,6 +304,67 @@ section img {
 
 }
 
+#portfolio_container1 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#portfolio_container2 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#portfolio_container3 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#portfolio_container4 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#portfolio_container5 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+
 #portfolio_tekst_boks {
     transition: .5s ease;
     opacity: 0;
@@ -151,7 +376,98 @@ section img {
     cursor: pointer;
 }
 
+#portfolio_tekst_boks1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#portfolio_tekst_boks2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#portfolio_tekst_boks3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#portfolio_tekst_boks4 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#portfolio_tekst_boks5 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+
 #portfolio_container:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#portfolio_container1:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#portfolio_container2:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#portfolio_container3:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#portfolio_container4:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+#portfolio_container5:hover img {
 
     opacity: 0.3;
     filter: blur(2px);
@@ -164,7 +480,93 @@ section img {
     opacity: 1;
 }
 
+#portfolio_container1:hover #portfolio_tekst_boks1 {
+
+    opacity: 1;
+}
+
+#portfolio_container2:hover #portfolio_tekst_boks2 {
+
+    opacity: 1;
+}
+
+#portfolio_container3:hover #portfolio_tekst_boks3 {
+
+    opacity: 1;
+}
+
+#portfolio_container4:hover #portfolio_tekst_boks4 {
+
+    opacity: 1;
+}
+
+#portfolio_container5:hover #portfolio_tekst_boks5 {
+
+    opacity: 1;
+}
+
+
 #portfolio_tekst {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst1 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst2 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst3 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst4 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+#portfolio_tekst5 {
 
     border: solid 1px black;
     color: black;
@@ -275,6 +677,48 @@ iframe {
     margin: 0px 20px 0px 30px;
 }
 
+#column1 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
+#column2 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
+#column3 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
+#column4 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
+#column5 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
+#column6 {
+
+    flex-basis: 300px;
+    flex-grow: 1;
+    margin: 0px 20px 0px 30px;
+}
+
 /*-----------------------------------UX-------------------------------------------*/
 
 #sectionwrapper_header_ux {
@@ -317,6 +761,37 @@ iframe {
 
 }
 
+#overskrift_ux_header1 {
+
+    margin: 50px 0px 10px 0;
+    font-size: 1.5em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_ux_header2 {
+
+    margin: 50px 0px 10px 0;
+    font-size: 1.5em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_ux_header3 {
+
+    margin: 50px 0px 10px 0;
+    font-size: 1.5em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
 #om_ux_header {
 
     font-size: 1em;
@@ -336,6 +811,37 @@ iframe {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 
 }
+
+#overskrift_ux1 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_ux2 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+#overskrift_ux3 {
+
+    margin: 10px 0px 10px 0;
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
 
 #om_ux_native {
 
@@ -357,6 +863,37 @@ iframe {
 
 }
 
+#om_ux1 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_ux2 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+#om_ux3 {
+
+    font-size: 1em;
+    word-spacing: 0.15em;
+    line-height: 1.5em;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+
 #ux_container {
 
     position: relative;
@@ -364,6 +901,31 @@ iframe {
     cursor: pointer;
 
 }
+
+#ux_container1 {
+
+    position: relative;
+    margin: 50px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#ux_container2 {
+
+    position: relative;
+    margin: 50px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
+#ux_container3 {
+
+    position: relative;
+    margin: 50px 30px 10px 30px;
+    cursor: pointer;
+
+}
+
 
 #ux_container img {
 
@@ -377,6 +939,43 @@ iframe {
 
 }
 
+#ux_container1 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#ux_container2 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+#ux_container3 img {
+
+    opacity: 1;
+    display: block;
+    height: auto;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    cursor: pointer;
+
+}
+
+
 #ux_tekst_boks {
     transition: .5s ease;
     opacity: 0;
@@ -388,6 +987,41 @@ iframe {
     cursor: pointer;
 }
 
+#ux_tekst_boks1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#ux_tekst_boks2 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+#ux_tekst_boks3 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
 #ux_container:hover img {
 
     opacity: 0.3;
@@ -396,12 +1030,56 @@ iframe {
 
 }
 
+#ux_container1:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+
+}
+
+#ux_container2:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+
+}
+
+#ux_container3:hover img {
+
+    opacity: 0.3;
+    filter: blur(2px);
+    cursor: pointer;
+
+}
+
+
 
 #ux_container:hover #ux_tekst_boks {
 
     opacity: 1;
 
 }
+
+#ux_container1:hover #ux_tekst_boks1 {
+
+    opacity: 1;
+
+}
+
+#ux_container2:hover #ux_tekst_boks2 {
+
+    opacity: 1;
+
+}
+
+#ux_container3:hover #ux_tekst_boks3 {
+
+    opacity: 1;
+
+}
+
 
 .ux_tekst {
 
@@ -414,6 +1092,43 @@ iframe {
     cursor: pointer;
 
 }
+
+.ux_tekst1 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+.ux_tekst2 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
+.ux_tekst3 {
+
+    border: solid 1px black;
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
+    padding: 16px 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+
+}
+
 
 /*-----------------------------ALLE-SIDER-------------------------------------*/
 
