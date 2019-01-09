@@ -578,6 +578,17 @@ section img {
 
 }
 
+
+#billede_send_eller_slet {
+
+    margin-top: 68.3px;
+}
+
+#redesign_ret_billede {
+    margin-top: 67.3px;
+
+}
+
 /*-------------------------STILARTSSITE-------------------------------------------*/
 
 #overskrift_stilartssite {
@@ -1363,7 +1374,18 @@ hr {
 }
 
 
+@media only screen and (max-width: 597px) {
 
+    #billede_send_eller_slet {
+
+        margin-top: 0px;
+    }
+
+    #redesign_ret_billede {
+        margin-top: 0px;
+
+    }
+}
 
 @media only screen and (max-width: 648px) {
 
